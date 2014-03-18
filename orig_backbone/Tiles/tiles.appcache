@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# 2012-05-09:v3
+
+CACHE:
+index.html
+css/jquery-ui-1.8.19.custom.css
+js/libs/modernizr-2.5.3.min.js
+js/libs/jquery-1.7.1.min.js
+js/libs/jquery-ui-1.8.19.custom.js
+js/libs/underscore.js
+js/libs/backbone.js
+js/libs/main.js
