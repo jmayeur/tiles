@@ -1,0 +1,84 @@
+/* ==|== application styles =======================================================
+   styles used by the Tiles App
+   ========================================================================== */
+
+.ui-state-disabled {
+    opacity: 1;
+    filter: Alpha(Opacity=100);
+    background-image: none;
+}
+
+.droptarget{
+    height:100px;
+    width:100px;
+    padding:0px;
+    margin:0px;
+    float:left;
+    background-color: #1c1c1c;
+    position: inherit;
+}
+
+.tile{
+    height:94px;
+    width:94px;
+    padding:0px;
+    margin:0px;
+    float:left;
+    cursor: default;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.tile_movable {
+    background-color: #D1D7FF;
+    cursor: move;
+}
+
+.tile_fixed{
+    cursor: default;
+    background-color: #ffffff;
+}
+
+.number{
+    color: #aaaaaa;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    padding:26px;
+}
+
+.singleItemList{
+    height:100px;
+    width:100px;
+    padding:0px;
+    float:left;
+    margin:0px 0px 0px 0px;
+    padding: 0px;
+}
+
+#tile-list {
+    list-style-type: none;
+    margin:0px 0px 0px 0px;
+    height:404px;
+    width:402px;
+    overflow: hidden;
+    background-color: #1c1c1c;
+    border: 5px solid #aaaaaa;
+    padding:4px 0px 0px 4px;
+    -moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;
+    float:left;
+    opacity:0.95;
+    filter:alpha(opacity=95); /* For IE8 and earlier */
+}
+
+.host {
+    height:410px;
+    width:410px;
+}
+
+.unselectable{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

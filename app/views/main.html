@@ -1,1 +1,13 @@
-<div>main</div>
+<div id="tile-list">
+    <slot-element ng-repeat="tile in tiles"
+                  tile="tile"
+                  handle-drop="handleDrop"
+                  handle-drag-over="handleDragOver">
+        <tile-element ng-if="tile.tileModel != null" tile="tile"
+                      can-tile-move="canTileMove"
+                      handle-drag="handleDragStart"
+                      handle-drag-end="handleDragEnd"
+                      handle-click="handleClick"></tile-element>
+    </slot-element>
+
+</div>
